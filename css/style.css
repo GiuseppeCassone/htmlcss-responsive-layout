@@ -24,6 +24,7 @@ header{
     margin-right: auto;
 }
 
+
 /* NAVBAR */
 .navbar{
     display: flex;
@@ -38,3 +39,40 @@ header{
 
     list-style-type: none;
 }
+
+/* FINE NAVBAR */
+
+/* PRIMA SEZIONE */
+
+.card-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    flex-wrap: wrap;
+
+    padding: 30px 25px;
+    border-radius: 4%;
+    background-color: #B5DDFF;
+
+    height: 360px;
+    /* test */
+}
+
+.big.card{
+
+    height: 600px;
+    /* test */
+    
+}
+
+/* FINE PRIMA SEZIONE */
