@@ -134,17 +134,17 @@ header{
 
 /* QUARTA SEZIONE */
 
-.benefits{
+
+.title{
     padding: 60px 0;
-
-}
-
-.benefits h2{
-    margin-bottom: 40px;
 
     color: white;
     font-size: 35px;
     text-align: center;
+}
+
+.benefits{
+    padding-bottom: 60px;
 }
 
 .benefits-card{
@@ -227,4 +227,59 @@ footer{
 }
 
 /* FINE FOOTER */
+
+
+/* RESPONSIVE */
+
+/* MEDIA QUERY PER TABLET 768px */
+
+@media screen and (min-width: 768px){
+
+    /* PRIMA SEZIONE */
+
+    .row.card-inner{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: calc(100% / 3 - 25px * 2 );
+    }
+
+    .big.card{
+        width: calc(66% - 25px);
+    }
+
+    
+
+
+
+    /* QUARTA SEZIONE */
+
+    .row.benefits{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card{
+        width: calc(100% / 2 - 25px);
+    }
+
+
+    /* QUINTA SEZIONE */
+
+    .row.about-us{
+        flex-direction: row;
+    }
+
+    .about-us .col-left{
+        width: 60%;
+    }
+
+    .about-us .col-right{
+        width: 40%;
+    }
+}
+
 
