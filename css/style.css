@@ -44,13 +44,17 @@ header{
 
 /* PRIMA SEZIONE */
 
-.card-inner{
+.row{
     display: flex;
     flex-direction: column;
     gap: 25px;
 
+}
+
+.card-inner{
     padding-top: 50px;
     padding-bottom: 80px;
+
 }
 
 .card{
@@ -61,7 +65,7 @@ header{
     flex-wrap: wrap;
 
     padding: 30px 25px;
-    border-radius: 4%;
+    border-radius: 20px;
     background-color: #B5DDFF;
 
     height: 360px;
@@ -76,3 +80,26 @@ header{
 }
 
 /* FINE PRIMA SEZIONE */
+
+/* SECONDA SEZIONE */
+
+.bg-blue{
+    background-color: #9792E4;
+}
+
+.planning{
+    padding: 60px 0;
+}
+
+.planning .col-left, .planning .col-right{
+    border-radius: 20px;
+
+
+    padding: 10px;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    /* test */
+}
+
+/* FINE SECONDA SEZIONE */
