@@ -140,6 +140,8 @@ header{
 }
 
 .benefits h2{
+    margin-bottom: 40px;
+
     color: white;
     font-size: 35px;
     text-align: center;
@@ -160,4 +162,27 @@ header{
 }
 
 /* FINE QUARTA SEZIONE */
+
+/* QUINTA SEZIONE */
+
+.about-us{
+    padding: 80px 0;
+}
+
+.about-us .col-left{
+    width: 100%;
+
+    border: 1px solid black;
+    height: 950px;
+    /* test */
+}
+
+.about-us .col-right{
+    width: 100%;
+
+    border: 1px solid black;
+    height: 430px;
+    /* test */
+}
+/* FINE QUINTA SEZIONE */
 
