@@ -103,3 +103,31 @@ header{
 }
 
 /* FINE SECONDA SEZIONE */
+
+/* TERZA SEZIONE */
+
+.partners{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.testimonials{
+    width: 100%;
+    text-align: center;
+
+    padding: 20px 0;
+}
+
+.testimonials.text{
+
+    height: 350px;
+    /* test */
+}
+
+.testimonials.bg-blue{
+
+    height: 500px;
+    /* test */
+}
+
+/* FINE TERZA SEZIONE */
