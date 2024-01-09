@@ -33,9 +33,10 @@ header{
 }
 
 
-
 .navlinks ul li{
-    display: none;
+
+    visibility: hidden;
+    font-size: 12px;
 
     list-style-type: none;
 }
@@ -125,6 +126,7 @@ header{
 }
 
 .testimonials.bg-blue{
+    border-radius: 20px;
 
     height: 500px;
     /* test */
@@ -280,6 +282,76 @@ footer{
     .about-us .col-right{
         width: 40%;
     }
+}
+
+
+/* MEDIA QUERY PER DESKTOP 1200px */
+
+@media screen and (min-width: 1200px) {
+
+    .container{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* NAVBAR */
+
+    
+    .navlinks ul{
+        display: flex;
+        gap: 20px;
+    }
+    
+    .navlinks ul li{
+        visibility: visible;
+        font-size: 16px;  
+        
+    }
+    
+    .fa-bars{
+        display: none;
+    }
+
+    /* SECONDA SEZIONE */
+
+    .row.planning{
+        flex-direction: row;
+    }
+
+    .planning .col-left, .planning .col-right{
+        width: calc(50% - 25px);
+    }
+
+
+    /* QUARTA SEZIONE */
+
+    .row.benefits{
+        justify-content: space-between;
+    }
+
+    .benefits-card{
+        width: calc(100% / 3 - 50px);
+
+    }
+
+    /* SESTA SEZIONE */
+
+    .container.small{
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    /* FOOTER */
+    .ft-container{
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
 }
 
 
