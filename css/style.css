@@ -87,12 +87,17 @@ a{
     border-radius: 20px;
     background-color: #B5DDFF;
 
-    /* height: 360px; */
-    /* test */
 }
 
 .big.card{
     text-align: left;
+}
+
+.b-card-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 25px;
 }
 
 
@@ -370,6 +375,10 @@ footer p a{
         width: 50%;
     }
 
+    .b-card-1{
+        margin-bottom: 10px;
+    }
+
     .big.card img{
         width: 60%;
     }
@@ -475,15 +484,44 @@ footer p a{
         display: none;
     }
 
+    .btn-white{
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+
+    /* PRIMA SEZIONE */
+
+    .big.card{
+        flex-direction: row;
+    }
+
+    .b-card-1{
+        width: 50%;
+    }
+
+    .big.card img{
+        width: 50%;
+    }
+
     /* SECONDA SEZIONE */
 
     .row.planning{
         flex-direction: row;
+        align-items: flex-end;
     }
 
     .planning .col-left, .planning .col-right{
         width: calc(50% - 25px);
     }
+
+    .col-left h1{
+        font-size: 30px;
+    }
+
+
+    /* TERZA SEZIONE */
 
 
     /* QUARTA SEZIONE */
