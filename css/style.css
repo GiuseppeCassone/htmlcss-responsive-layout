@@ -28,6 +28,10 @@ img{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /* NAVBAR */
 .navbar{
@@ -148,6 +152,7 @@ img{
     font-size: 12px;
     padding: 10px 15px;
     border-radius: 50%;
+    color: black;
 }
 
 /* FINE SECONDA SEZIONE */
@@ -180,6 +185,10 @@ img{
 
 .co-b{
     color: #9792E4;
+}
+
+.tx-big{
+    font-size: 32px;
 }
 
 .circle{
@@ -217,9 +226,15 @@ img{
 
     background-color: white;
 
-    height: 400px;
-    /* test */
+}
 
+.btn-p{
+    width: 40%;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+    background-color: #9792E4;
 }
 
 /* FINE QUARTA SEZIONE */
