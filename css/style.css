@@ -171,11 +171,6 @@ a{
     padding: 20px 0;
 }
 
-.testimonials.text{
-
-    height: 350px;
-    /* test */
-}
 
 .testimonials.bg-blue{
     border-radius: 20px;
@@ -248,17 +243,24 @@ a{
 .about-us .col-left{
     width: 100%;
 
-    border: 1px solid black;
-    height: 950px;
-    /* test */
 }
 
 .about-us .col-right{
     width: 100%;
+    position: relative;
 
-    border: 1px solid black;
-    height: 430px;
-    /* test */
+}
+
+.col-right .fa-quote-left{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    font-size: 50px;
+}
+
+.circle-sm{
+    width: 150px;
+    height: 150px;
 }
 
 /* FINE QUINTA SEZIONE */
