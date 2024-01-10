@@ -58,26 +58,53 @@ header{
 
 }
 
+.card-inner h3{
+    color: #0084FD;
+    
+}
+
+.mg-b{
+    margin-bottom:25px;
+}
+
 .card{
     display: flex;
     flex-direction: column;
+    text-align: center;
 
     width: 100%;
     flex-wrap: wrap;
 
-    padding: 30px 25px;
+    padding: 30px 25px 0;
     border-radius: 20px;
     background-color: #B5DDFF;
 
-    height: 360px;
+    /* height: 360px; */
     /* test */
 }
 
 .big.card{
+    text-align: left;
+}
 
-    height: 600px;
-    /* test */
-    
+
+.btn-blue{
+    width: 80%;
+    background-color: #0084FD;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.big.card img{
+    width: 100%;
+
+}
+
+.small.card i{
+    font-size: 70px;
+    color: #0084FD;
 }
 
 /* FINE PRIMA SEZIONE */
@@ -101,6 +128,10 @@ header{
     height: 600px;
     background-color: white;
     /* test */
+}
+
+.col-left img{
+    width: 100%;
 }
 
 /* FINE SECONDA SEZIONE */
@@ -303,13 +334,14 @@ footer{
         gap: 20px;
     }
     
+    
     .navlinks ul li{
         visibility: visible;
         font-size: 16px;  
         
     }
     
-    .fa-bars{
+    .fa-solid.fa-bars{
         display: none;
     }
 
