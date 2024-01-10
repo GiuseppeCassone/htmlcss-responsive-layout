@@ -7,6 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.5em;
 }
 
 header{
@@ -368,7 +369,7 @@ footer p a{
     }
 
     .big.card{
-        width: calc(66% - 25px);
+        width: calc(67.66% - 25px);
     }
 
     .big.card .btn-blue{
@@ -516,12 +517,20 @@ footer p a{
         width: calc(50% - 25px);
     }
 
-    .col-left h1{
+    .planning .col-left h1{
         font-size: 30px;
+    }
+
+    .planning .col-right img{
+        width: 70%;
     }
 
 
     /* TERZA SEZIONE */
+
+    .testimonials.bg-blue div{
+        padding: 0 30px;
+    }
 
 
     /* QUARTA SEZIONE */
@@ -531,22 +540,56 @@ footer p a{
     }
 
     .benefits-card{
-        width: calc(100% / 3 - 50px);
+        width: calc(100% / 3 - 25px);
 
+    }
+
+    /* QUINTA SEZIONE */
+
+    .about-us{
+        padding: 80px 30px;
+    }
+
+    .about-us .col-left{
+        width: 70%;
+    }
+
+    .about-us .col-right{
+        width: 30%;
+        padding-right: 40px;
+    }
+
+    .about-us .col-right h2{
+        font-size: 16px;
+    }
+
+    .about-us .col-right a{
+        font-size: 12px;
     }
 
     /* SESTA SEZIONE */
 
     .container.small{
-        width: 35%;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .get-started h2{
+        font-size: 40px;
+    }
+
+    .btn-big{
+        width: 60%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 30px;
     }
 
 
     /* FOOTER */
     .ft-container{
-        width: 30%;
+        width: 35%;
         margin-left: auto;
         margin-right: auto;
     }
