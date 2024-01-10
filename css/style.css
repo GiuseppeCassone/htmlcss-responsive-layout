@@ -359,16 +359,44 @@ footer p a{
     }
 
     .card{
-        width: calc(100% / 3 - 25px * 2 );
+        width: calc(100% / 3 - 25px);
     }
 
     .big.card{
         width: calc(66% - 25px);
     }
 
+    .big.card .btn-blue{
+        width: 50%;
+    }
+
+    .big.card img{
+        width: 60%;
+    }
+
+
+    /* SECONDA SEZIONE */
+
+    .planning .col-left h1{
+        font-size: 60px;
+    }
+
+    /* TERZA SEZIONE */
+
+    .testimonials.text h2{
+        font-size: 35px;
+    }
+
+    .testimonials.bg-blue{
+        display: flex;
+        align-items: center;
+    }
+
+    .testimonials.bg-blue div{
+        text-align: left;
+        padding: 0 16px;
+    }
     
-
-
 
     /* QUARTA SEZIONE */
 
@@ -379,6 +407,10 @@ footer p a{
 
     .benefits-card{
         width: calc(100% / 2 - 25px);
+    }
+
+    .tx-big{
+        font-size: 50px;
     }
 
 
@@ -394,6 +426,22 @@ footer p a{
 
     .about-us .col-right{
         width: 40%;
+    }
+
+    .col-right .fa-quote-left{
+        left: 50%;
+    }
+
+    /* SESTA SEZIONE */
+
+    .container.small{
+        width: 60%;
+    }
+
+    /* FOOTER */
+
+    .ft-container{
+        width: 60%;
     }
 }
 
