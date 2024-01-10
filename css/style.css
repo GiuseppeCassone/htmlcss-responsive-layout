@@ -7,7 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
-    line-height: 1.5em;
+    
 }
 
 header{
@@ -17,6 +17,10 @@ header{
 
     background-color: #0084FD;
     color: white;
+}
+
+main{
+    line-height: 1.5em;
 }
 
 .container{
@@ -389,6 +393,7 @@ footer p a{
 
     .planning .col-left h1{
         font-size: 60px;
+        margin-bottom: 50px;
     }
 
     /* TERZA SEZIONE */
